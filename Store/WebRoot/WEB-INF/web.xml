@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+	<display-name>Store</display-name>
+  <servlet>
+    <servlet-name>AdminLogin</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>iteminfoAddPre</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.iteminfoAddPre</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>iteminfoAdd</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.iteminfoAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>iteminfoEdit01</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.iteminfoEdit01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>iteminfoEdit02</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.iteminfoEdit02</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeAdd</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.EmployeeAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeAddPre</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.EmployeeAddPre</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeEdit01</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.EmployeeEdit01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeEdit02</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.EmployeeEdit02</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>informationAdd</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.informationAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>informationAddPre</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.informationAddPre</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>informationEdit01</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.informationEdit01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>informationEdit02</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.informationEdit02</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HR_jobadd</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.HR_jobadd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HR_jobEdit01</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.HR_jobEdit01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HR_jobEdit02</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.HR_jobEdit02</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>wageAdd</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.wageAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>wageEdit01</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.wageEdit01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>wageEdit02</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.wageEdit02</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AttendanceAdd</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.AttendanceAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AttendanceEdit01</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.AttendanceEdit01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AttendanceEdit02</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.AttendanceEdit02</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AttendanceEdit03</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.AttendanceEdit03</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AttendanceEdit04</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.AttendanceEdit04</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>sale_search_result</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.sale_search_result</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>sale_search</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.sale_search</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>noinformationAdd</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.noinformationAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>noinformationEdit01</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.noinformationEdit01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>noinformationEdit02</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.noinformationEdit02</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ioAdd</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.ioAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ioAddpre</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.ioAddpre</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ioEdit01</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.ioEdit01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ioEdit02</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.ioEdit02</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ioSearch</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.ioSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserVO</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>vo.UserVO</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>iolistall</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.iolistall</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ionum01</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.ionum01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>remarks</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>serv.remarks</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>iteminfoAddPre</servlet-name>
+    <url-pattern>/iteminfoAddPre</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>iteminfoAdd</servlet-name>
+    <url-pattern>/iteminfoAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>iteminfoEdit01</servlet-name>
+    <url-pattern>/iteminfoEdit01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>iteminfoEdit02</servlet-name>
+    <url-pattern>/iteminfoEdit02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeAdd</servlet-name>
+    <url-pattern>/EmployeeAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeAddPre</servlet-name>
+    <url-pattern>/EmployeeAddPre</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeEdit01</servlet-name>
+    <url-pattern>/EmployeeEdit01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeEdit02</servlet-name>
+    <url-pattern>/EmployeeEdit02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>informationAdd</servlet-name>
+    <url-pattern>/informationAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>informationAddPre</servlet-name>
+    <url-pattern>/informationAddPre</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>informationEdit01</servlet-name>
+    <url-pattern>/informationEdit01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>informationEdit02</servlet-name>
+    <url-pattern>/informationEdit02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HR_jobadd</servlet-name>
+    <url-pattern>/HR_jobadd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HR_jobEdit01</servlet-name>
+    <url-pattern>/HR_jobEdit01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HR_jobEdit02</servlet-name>
+    <url-pattern>/HR_jobEdit02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>wageAdd</servlet-name>
+    <url-pattern>/wageAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>wageEdit01</servlet-name>
+    <url-pattern>/wageEdit01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>wageEdit02</servlet-name>
+    <url-pattern>/wageEdit02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttendanceAdd</servlet-name>
+    <url-pattern>/AttendanceAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttendanceEdit01</servlet-name>
+    <url-pattern>/AttendanceEdit01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttendanceEdit02</servlet-name>
+    <url-pattern>/AttendanceEdit02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttendanceEdit03</servlet-name>
+    <url-pattern>/AttendanceEdit03</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttendanceEdit04</servlet-name>
+    <url-pattern>/AttendanceEdit04</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sale_search_result</servlet-name>
+    <url-pattern>/sale_search_result</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sale_search</servlet-name>
+    <url-pattern>/sale_search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>noinformationAdd</servlet-name>
+    <url-pattern>/noinformationAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>noinformationEdit01</servlet-name>
+    <url-pattern>/noinformationEdit01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>noinformationEdit02</servlet-name>
+    <url-pattern>/noinformationEdit02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ioAdd</servlet-name>
+    <url-pattern>/ioAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ioAddpre</servlet-name>
+    <url-pattern>/ioAddpre</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ioEdit01</servlet-name>
+    <url-pattern>/ioEdit01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ioEdit02</servlet-name>
+    <url-pattern>/ioEdit02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ioSearch</servlet-name>
+    <url-pattern>/ioSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserVO</servlet-name>
+    <url-pattern>/UserVO</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>iolistall</servlet-name>
+    <url-pattern>/iolistall</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ionum01</servlet-name>
+    <url-pattern>/ionum01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>remarks</servlet-name>
+    <url-pattern>/remarks</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
